@@ -4,12 +4,20 @@
   "description": "A Simple IoT Plataform - DB Module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard --fix"
   },
-  "repository":{
-    "type":"git",
-    "url":"git+https://github.com/hackchan/appdb.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackchan/appdb.git"
   },
   "author": "hackchan <fabiorojas7@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0"
+  }
 }
